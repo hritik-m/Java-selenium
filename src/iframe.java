@@ -23,7 +23,7 @@ public class iframe {
         caps.setCapability("os", "Windows");
         caps.setCapability("name", "Sample Test");
         caps.setCapability("build", "BStack test");
-        caps.setCapability("browserstack.local", "true");
+       // caps.setCapability("browserstack.local", "true");
 
         driver = new RemoteWebDriver(new URL(URL), caps);
 
